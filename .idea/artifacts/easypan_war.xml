@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="easypan:war">
+    <output-path>$PROJECT_DIR$/easypan/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>easypan</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="easypan.war">
+      <element id="artifact" artifact-name="easypan:war exploded" />
+    </root>
+  </artifact>
+</component>
